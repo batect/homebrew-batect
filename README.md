@@ -11,7 +11,6 @@ If you're looking to set up batect itself, check out the [setup guide](https://b
 
 **Shell tab completion for [fish](https://fishshell.com/)**
 
-Install with `brew install batect/batect/fish-completion`
+Install with `brew install batect/batect/batect-fish-completion`
 
 More information is available in the [fish-completion repository](https://github.com/batect/fish-completion).
-
