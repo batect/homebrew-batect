@@ -3,7 +3,7 @@
 ## Are you looking for batect itself?
 This Homebrew tap only contains Homebrew formulae for shell tab completion scripts.
 
-If you're looking to set up batect istself, check out the [setup guide](https://batect.dev/Setup.html) instead.
+If you're looking to set up batect itself, check out the [setup guide](https://batect.dev/Setup.html) instead.
 
 ## What's available in here?
 
