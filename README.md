@@ -1,9 +1,9 @@
-# batect [Homebrew](https://brew.sh) tap
+# Batect [Homebrew](https://brew.sh) tap
 
-## Are you looking for batect itself?
+## Are you looking for Batect itself?
 This Homebrew tap only contains Homebrew formulae for shell tab completion scripts.
 
-If you're looking to set up batect itself, check out the [setup guide](https://batect.dev/Setup.html) instead.
+If you're looking to set up Batect itself, check out the [setup guide](https://batect.dev/Setup.html) instead.
 
 ## What's available in here?
 
