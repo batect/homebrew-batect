@@ -10,6 +10,12 @@ jobs:
         os: [ubuntu-latest, macOS-latest]
     runs-on: ${{ matrix.os }}
     steps:
+
+      # See https://github.com/Homebrew/homebrew-core/pull/66439 and https://github.com/Homebrew/brew/issues/9410.
+      - name: Force vendored Ruby on Catalina
+        if: matrix.os == 'macOS-latest'
+        run: echo 'HOMEBREW_FORCE_VENDOR_RUBY=1' >> $GITHUB_ENV
+
       - name: Set up Homebrew
         id: set-up-homebrew
         uses: Homebrew/actions/setup-homebrew@master
