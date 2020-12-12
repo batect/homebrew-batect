@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "config:base",
+    ":prHourlyLimitNone",
+    ":prConcurrentLimitNone"
+  ],
+  "reviewers": [
+    "charleskorn"
+  ],
+  "labels": ["is:dependency-update"],
+  "rebaseWhen": "behind-base-branch"
+}
