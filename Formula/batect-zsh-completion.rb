@@ -9,10 +9,10 @@ class BatectZshCompletion < Formula
   bottle :unneeded
 
   def install
-    fish_completion.install "_batect"
+    zsh_completion.install "_batect"
   end
 
   test do
-    assert_predicate fish_completion/"_batect", :exist?
+    assert_predicate zsh_completion/"_batect", :exist?
   end
 end
