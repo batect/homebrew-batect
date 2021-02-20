@@ -1,8 +1,8 @@
 class BatectFishCompletion < Formula
   desc "Fish shell tab completion for Batect"
   homepage "https://github.com/batect/fish-completion"
-  url "https://raw.githubusercontent.com/batect/fish-completion/0.4.0/completions/batect.fish"
-  sha256 "0852881e453e4b309c1a388d625ee09e306a9e86731802120291b9eeded020f5"
+  url "https://raw.githubusercontent.com/batect/fish-completion/0.5.0/completions/batect.fish"
+  sha256 "d2540f2cf88ddd40c16f89204569f2e85612ff59d5e41d465fac7be231388d85"
   license "Apache-2.0"
   head "https://raw.githubusercontent.com/batect/fish-completion/master/completions/batect.fish"
 
