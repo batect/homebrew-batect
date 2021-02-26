@@ -10,7 +10,7 @@ function main() {
     updateFormula "batect-fish-completion" "fish-completion" "completions/batect.fish"
     echo
 
-    updateFormula "batect-zsh-completion" "zsh-completion" "completions/_batect"
+    updateFormula "batect-zsh-completion" "zsh-completion" "_batect"
     echo
 
     echo "Done."
