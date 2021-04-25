@@ -7,20 +7,20 @@ ROOT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 FORMULA_DIR="$(cd "$ROOT_DIR/Formula" && pwd)"
 
 function main() {
-    updateFormula "batect-fish-completion" "fish-completion" "completions/batect.fish"
+    updateFormula "batect-fish-completion" "completions/batect.fish"
     echo
 
-    updateFormula "batect-zsh-completion" "zsh-completion" "_batect"
+    updateFormula "batect-zsh-completion" "_batect"
     echo
 
     echo "Done."
 }
 
 function updateFormula() {
-    FORMULA="$1.rb"
-    REPO="$2"
-    REPO_SLUG="batect/$2"
-    PATH_IN_REPO=$3
+    REPO="$1"
+    FORMULA="$REPO.rb"
+    REPO_SLUG="batect/$REPO"
+    PATH_IN_REPO=$2
 
     echo "Updating $REPO..."
     echo "Getting latest version information..."
