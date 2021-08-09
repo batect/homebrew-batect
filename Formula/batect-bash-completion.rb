@@ -1,4 +1,4 @@
-class BatectFishCompletion < Formula
+class BatectBashCompletion < Formula
   desc "Bash shell tab completion for Batect"
   homepage "https://github.com/batect/batect-bash-completion"
   url "https://raw.githubusercontent.com/batect/batect-bash-completion/0.1.0/batect.bash"
