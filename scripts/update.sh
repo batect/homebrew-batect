@@ -7,6 +7,9 @@ ROOT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 FORMULA_DIR="$(cd "$ROOT_DIR/Formula" && pwd)"
 
 function main() {
+    updateFormula "batect-bash-completion" "batect.bash"
+    echo
+
     updateFormula "batect-fish-completion" "completions/batect.fish"
     echo
 
