@@ -6,8 +6,6 @@ class BatectZshCompletion < Formula
   license "Apache-2.0"
   head "https://raw.githubusercontent.com/batect/batect-zsh-completion/master/completions/_batect"
 
-  bottle :unneeded
-
   def install
     zsh_completion.install "_batect"
   end

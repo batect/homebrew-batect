@@ -6,8 +6,6 @@ class BatectFishCompletion < Formula
   license "Apache-2.0"
   head "https://raw.githubusercontent.com/batect/batect-fish-completion/master/completions/batect.fish"
 
-  bottle :unneeded
-
   def install
     fish_completion.install "batect.fish"
   end

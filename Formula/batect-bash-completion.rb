@@ -6,8 +6,6 @@ class BatectBashCompletion < Formula
   license "Apache-2.0"
   head "https://raw.githubusercontent.com/batect/batect-bash-completion/master/batect.bash"
 
-  bottle :unneeded
-
   def install
     bash_completion.install "batect.bash"
   end
